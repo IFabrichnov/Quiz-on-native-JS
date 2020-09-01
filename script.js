@@ -13,10 +13,8 @@ const openJson = () => {
     })
     .then(response => {
       data = response;
-      console.log(data);
 
       createQuestion();
-
     });
 };
 
