@@ -1,0 +1,43 @@
+.wrapper {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    border:  1px solid #BBBBBB;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.question {
+    color: #fff;
+    margin-left: 10px;
+}
+
+body {
+    background: linear-gradient(90deg, #5041b2 0%, #7969e6 100%);
+}
+
+.answers {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.answers label {
+    display: block;
+    margin: 0 0 0 -1px;
+    padding: 8px 10px;
+    border: 1px solid #BBBBBB;
+    background: linear-gradient(90deg, #5041b2 0%, #7969e6 100%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .12);
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+
+.win {
+    color: #fff;
+    margin: 90px 120px;
+}
